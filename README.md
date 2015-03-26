@@ -33,5 +33,5 @@ I come up with parser to extract the vocabulary from the articles stored in XML 
 Online LDA on PNAS
 ==================
 
-I train Latent Dirichlet Allocation(LDA) on the PNAS dataset previous vocabulary and parser. Taking Wikipedia articles as the test documents, I use the final estimated topics to compute the posterior and find topically similar articls. Finally, I print out the most prominent words in each topics and I save the whole process as Online LDA on PNAS.ipynb. 
+I train Latent Dirichlet Allocation(LDA) on the PNAS dataset previous vocabulary and parser. Taking Wikipedia articles as the test documents, I use the final estimated topics to compute the posterior and find topically similar articles. Finally, I print out the most prominent words in each topics and I save the whole process as Online LDA on PNAS.ipynb. 
 
