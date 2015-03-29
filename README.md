@@ -30,8 +30,15 @@ Clean PNAS data
 
 I come up with parser to extract the vocabulary from the articles stored in XML format. Then I exclude extremely popular and rare words to keep the vocabulary reasonably small and I save the vocabulary as pnasvocab.txt and the whole process as PNAS parser and vocabulary.ipynb.
 
+Please check the notebook here for detail:
+
+http://nbviewer.ipython.org/github/eddieyue/Online-LDA-on-PNAS-articles-data-/blob/master/PNAS%20parser%20and%20vocabulary.ipynb
+
 Online LDA on PNAS
 ==================
 
 I train Latent Dirichlet Allocation(LDA) on the PNAS dataset previous vocabulary and parser. Taking Wikipedia articles as the test documents, I use the final estimated topics to compute the posterior and find topically similar articles. Finally, I print out the most prominent words in each topics and I save the whole process as Online LDA on PNAS.ipynb. 
 
+Please check the notebook here for detail:
+
+http://nbviewer.ipython.org/github/eddieyue/Online-LDA-on-PNAS-articles-data-/blob/master/Online%20LDA%20on%20PNAS.ipynb
